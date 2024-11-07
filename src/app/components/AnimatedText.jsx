@@ -2,6 +2,7 @@
 import React, { useEffect } from "react";
 import "./Marquee.css";
 import gsap from "gsap";
+import Image from 'next'
 
 const Marquee = () => {
   useEffect(() => {
@@ -50,7 +51,7 @@ const Marquee = () => {
         <div id="move">
           <div className="marque">
             <h1>PROJECTS</h1>
-            <img
+            <Image
               src="https://www.brandium.nl/wp-content/uploads/2023/07/arrow-br.svg"
               alt="arrow"
             />
@@ -58,7 +59,7 @@ const Marquee = () => {
           </div>
           <div className="marque">
             <h1>PROJECTS</h1>
-            <img
+            <Image
               src="https://www.brandium.nl/wp-content/uploads/2023/07/arrow-br.svg"
               alt="arrow"
             />
@@ -66,7 +67,7 @@ const Marquee = () => {
           </div>
           <div className="marque">
             <h1>PROJECTS</h1>
-            <img
+            <Image
               src="https://www.brandium.nl/wp-content/uploads/2023/07/arrow-br.svg"
               alt="arrow"
             />
@@ -74,7 +75,7 @@ const Marquee = () => {
           </div>
           <div className="marque">
             <h1>PROJECTS</h1>
-            <img
+            <Image
               src="https://www.brandium.nl/wp-content/uploads/2023/07/arrow-br.svg"
               alt="arrow"
             />
